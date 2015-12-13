@@ -1,4 +1,11 @@
 from bs4 import BeautifulSoup
+"""
+Play with beautiful soup for searchng through a html
+page and getting the name of a link, its path and
+the date last updated
+
+TODO: Filter stuff
+"""
 class SomeItem():
     def __init__(self, name, date, path):
         self.name = name
@@ -57,7 +64,7 @@ for line in tr:
         if iteration == 2:
             date = t.get_text().strip()
         iteration += 1
-    print "Appending %s %s %s" % (url, name, date)
+    #print "Appending %s %s %s" % (url, name, date)
     items.append(SomeItem(name,date,url))
 
 for item in items:
