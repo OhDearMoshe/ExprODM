@@ -6,3 +6,4 @@ ADD requirements.txt /code/
 RUN pip install -r requirements.txt
 ADD . /code/
 ENV FLASK_APP /code/example.py
+EXPOSE 5000
