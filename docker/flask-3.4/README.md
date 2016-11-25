@@ -2,6 +2,10 @@
 
 Contains everything you need to run flask on ubunutu with python 3.4.
 
+To Build locally
+```
+docker build -t flask:3.4 .
+```
 
 It even includes a test app. You can try it out by:
 ```
