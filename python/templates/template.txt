@@ -1,4 +1,4 @@
-[Generic welcome message] [Day of the week, date, month] [Weather, highest temperature]. [[Picture of the day]] ([link]), [who posted the link]
+{{ observation.welcome }} {{ observation.date }} {{ observation.weather }}. [[{{ observation.pic_title }}]] ({{ observation.pic_link }}), courtesy of {{ observation.pic_contributor }}
 
 ---
 
