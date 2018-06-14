@@ -1,6 +1,8 @@
 package main
 
-import ("fmt" "time")
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Tour of go round one")
