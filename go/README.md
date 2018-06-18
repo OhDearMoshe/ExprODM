@@ -1,4 +1,4 @@
-Playing around with goland
+Playing around with golang
 ===
 
 notes:
